@@ -261,23 +261,11 @@ h5 {
     margin-bottom: 20px;
 }
 
-fieldset {
-    margin: 10px 0px;
-    display: block;
-    text-align: center;
-}
 
-.buttonSend {
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    height: 60px;
-    width: 100px;
-}
 
 .tittle3 {
     font-family: "Alegreya Sans";
-    color: $subtittle-color;
+    color: $panels-color;
     letter-spacing: 3px;
     font-size: 30px;
 }
@@ -319,65 +307,17 @@ legend {
     display: none;
 }
 
-.hombre {
-    background-color: $panels-color;
-}
 
-.registro {
-    padding: 0;
-    margin: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-}
 
-form {
-    display: inline-block;
-    background-color: $tittle-color;
-    padding: 40px 0;
-    box-shadow: 0 0 6px 0 $background-color;
-    border-radius: 10px;
-}
 
-.user {
-    display: grid;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    height: 50px;
-    border-radius: 0px;
-}
 
-.Ingresar {
-    font-size: 20px;
-    font-family: "Alegraya Sans";
-    color: $subtittle-color;
-}
 
-input {
-
-    background: none;
-    font-size: 18px;
-    padding: 10px 10px 10px 5px;
-    display: block;
-    width: 50%;
-    border: none;
-    text-align: center;
-    margin-left: 480px;
-    border-bottom: 1px solid;
-}
-
-input:focus {
-    outline: none;
-}
 
 .tittle3 {
 
     position: absolute;
     bottom: 0;
 
-}
-
-input:focus~label {
-    top: 5px;
 }
 
 footer {
@@ -456,10 +396,7 @@ footer {
         display: none;
     }
 
-    #check:checked+label #clip {
-        display: block;
-    }
-
+ 
     .logo {
         display: none;
         transition: 2s;
